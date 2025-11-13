@@ -1,0 +1,61 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Django
+*.db
+*.pot
+*.pyc
+*.coverage
+*.mo
+*.env
+*.venv
+*.DS_Store
+local_settings.py
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Node (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Prometheus & Grafana
+prometheus-*.db
+prometheus-*.snap
+grafana_data/
+*.yml~
+
+# Logs
+*.log
+*.out
+*.err
+
+# MacOS
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python virtual environment
+venv/
+ENV/
+env/
