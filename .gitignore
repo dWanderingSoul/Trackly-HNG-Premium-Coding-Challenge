@@ -59,3 +59,51 @@ grafana_data/
 venv/
 ENV/
 env/
+
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.swp
+*.env
+*.venv
+.env/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+*.cover
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Django specific
+# =========================
+*.log
+media/
+staticfiles/
+*.sqlite3
+*.pyc
+local_settings.py
+
+# =========================
+# Prometheus
+# =========================
+prometheus-*/data/
+prometheus-*/wal/
+prometheus-*/console_libraries/
+prometheus-*/prometheus.yml.lock
+
+# =========
