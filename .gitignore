@@ -107,3 +107,8 @@ prometheus-*/console_libraries/
 prometheus-*/prometheus.yml.lock
 
 # =========
+
+# Prometheus binaries
+Trackly/prometheus-2.48.0.linux-amd64/prometheus
+Trackly/prometheus-2.48.0.linux-amd64/promtool
+Trackly/prometheus-2.48.0.linux-amd64.tar.gz
